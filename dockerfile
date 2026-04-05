@@ -4,9 +4,9 @@ WORKDIR /app
 
 ADD https://github.com/VijayNariyal/Static-website/archive/refs/heads/main.zip .
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update
 
-RUN apt-get install unzip
+RUN apt-get install unzip -y
 
 RUN unzip main.zip
 
