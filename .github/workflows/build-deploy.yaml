@@ -11,5 +11,8 @@ jobs:
 
       - name: Dockerversion
         run: docker --version
-
+      - name: All files
+        run: ls
+      - name: PWD
+        run: pwd
       
